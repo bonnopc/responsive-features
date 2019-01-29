@@ -1,6 +1,6 @@
 # Responsive Features
 
-An app to visualize key features or services of your website. Idea is to design and maintain responsiveness using just only CSS (without any kit or framework).
+An app to visualize key features or services of your website. The idea is to design and maintain responsiveness using just only CSS (without any kit or framework).
 
 [Live Demo](https://dry-ocean-57819.herokuapp.com/)
 
