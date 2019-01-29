@@ -1,8 +1,8 @@
 # Responsive Features
 
-An app to visualize key features or services of your website. Idea is design and maintain responsiveness using just only CSS (not with any kit or framework)
+An app to visualize key features or services of your website. Idea is to design and maintain responsiveness using just only CSS (without any kit or framework).
 
-[Live Demo](https://bonnopc.com)
+[Live Demo](https://dry-ocean-57819.herokuapp.com/)
 
 ## Installation
 At first clone this repository with SSH or HTTPS

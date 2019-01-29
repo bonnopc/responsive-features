@@ -38,7 +38,7 @@ export default class HomeComponent extends Component {
         <div className="main">
             <div className="container">
                 <h1 className="heading">Responsive Features</h1>
-                <h3 className="sub-heading">Lorem ipsum dolor sit amet</h3>
+                <h4 className="sub-heading">Lorem ipsum dolor sit amet</h4>
                 <div className="items-list">
                     {
                         this.state.items.map((item,index) => (
