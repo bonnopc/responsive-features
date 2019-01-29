@@ -1,0 +1,27 @@
+[
+    {
+        "heading" : "Vivamus suscipit",
+        "description" : "Donec interdum finibus eros et pretium. Phasellus luctus porttitor tellus vel vulputate.",
+        "iconClass" : "far fa-snowflake"
+    },
+    {
+        "heading" : "Integer eget",
+        "description" : "Pellentesque ultricies aliquam libero, at iaculis sapien aliquet vel. Proin ac pretium neque, et ornare quam. Mauris eleifend dolor laoreet convallis vehicula.",
+        "iconClass" : "book"
+    },
+    {
+        "heading" : "Quisque ornare",
+        "description" : "Vivamus maximus auctor sapien, lobortis feugiat mauris cursus vel. Nullam in efficitur metus, a fermentum mauris. Praesent at augue sapien. Aenean euismod est auctor, luctus justo a, iaculis elit.",
+        "iconClass" : "book"
+    },
+    {
+        "heading" : "Vestibulum",
+        "description" : "Cras in dui finibus ex porttitor ultrices eu tincidunt odio. Sed pulvinar nulla sem, in eleifend metus lobortis non. Ut aliquam in lorem vitae ornare. Maecenas a varius nibh, in iaculis mi.",
+        "iconClass" : "book"
+    },
+    {
+        "heading" : "Praesent bibendum",
+        "description" : "Curabitur et nulla nisi. Mauris pellentesque lorem elit, sed interdum orci ultricies vel. Aenean dignissim nulla non urna dictum iaculis. Vivamus tincidunt erat lectus, in hendrerit sem pulvinar ac.",
+        "iconClass" : "book"
+    }
+]

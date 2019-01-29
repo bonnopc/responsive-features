@@ -1,0 +1,121 @@
+*, :after, :before{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+body{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f2f2f2;
+    text-align: left;
+    display: block;
+    margin: 0;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.5); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(136, 136, 136, 0.75); 
+}
+
+.main{
+    background-image: url("../assets/Veggies-black-table.jpg");
+    height: 100vh;
+    width: 100vw; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container{
+    margin: 35vh 0 0;
+    height: 65vh;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.heading, .sub-heading {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container > .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+
+.items-list > .item {
+    overflow: hidden;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.items-list > .item > .icon {
+    font-size: 3rem;
+    color: #72BD7C;
+}
+
+.items-list > .item > .heading:hover {
+    text-shadow: 0.5px 0.5px 1px #fff, 1px 1px 10px #ccc;
+}
+
+.items-list > .item > .item-description {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* smartphones, Android phones */
+@media only screen and (min-width: 481px) {
+    .container{
+        margin: 35vh 0 0 10vw;
+    }
+}
+
+/* portrait tablets, portrait iPad, e-readers */
+@media only screen and (min-width: 641px) {
+    .container{
+        margin: 35vh 0 0 20vw;
+    }
+
+    .items-list > .item {
+        width: 14rem;
+        height: 10rem;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media only screen and (min-width: 961px) {
+    .container{
+        margin: 35vh 0 0 25vw;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media only screen and (min-width: 1025px) {
+    
+}
+
+/* hi-res laptops and desktops */
+@media only screen and (min-width: 1281px) {
+
+}
